@@ -1,7 +1,7 @@
 /* 
  * CSS Easy
  * Author - Marcelo Ronkenoli
- * v 0.12
+ * v 0.13
  */
 
 
@@ -465,6 +465,126 @@
 .relative{
     position: relative;
 }
+
+.inline-block{
+    display: inline-block !important;
+}
+
+.word-wrap{
+    word-wrap: break-word;
+}
+
+
+
+
+/*
+ * Overlap
+ */
+
+.overlap-black-5,
+.overlap-black-10,
+.overlap-black-15,
+.overlap-black-20,
+.overlap-black-25,
+.overlap-black-30,
+.overlap-black-35,
+.overlap-black-40,
+.overlap-black-45,
+.overlap-black-50,
+.overlap-black-55,
+.overlap-black-60,
+.overlap-black-65,
+.overlap-black-70,
+.overlap-black-75,
+.overlap-black-80,
+.overlap-black-85,
+.overlap-black-90,
+.overlap-black-95{
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+
+.overlap-black-5{
+    background: rgba(0,0,0,.05);
+}
+
+.overlap-black-10{
+    background: rgba(0,0,0,.1);
+}
+
+.overlap-black-15{
+    background: rgba(0,0,0,.15);
+}
+
+.overlap-black-20{
+    background: rgba(0,0,0,.2);
+}
+
+.overlap-black-25{
+    background: rgba(0,0,0,.25);
+}
+
+.overlap-black-30{
+    background: rgba(0,0,0,.3);
+}
+
+.overlap-black-35{
+    background: rgba(0,0,0,.35);
+}
+
+.overlap-black-40{
+    background: rgba(0,0,0,.4);
+}
+
+.overlap-black-45{
+    background: rgba(0,0,0,.45);
+}
+
+.overlap-black-50{
+    background: rgba(0,0,0,.5);
+}
+
+.overlap-black-55{
+    background: rgba(0,0,0,.55);
+}
+
+.overlap-black-60{
+    background: rgba(0,0,0,.6);
+}
+
+.overlap-black-65{
+    background: rgba(0,0,0,.65);
+}
+
+.overlap-black-70{
+    background: rgba(0,0,0,.7);
+}
+
+.overlap-black-75{
+    background: rgba(0,0,0,.75);
+}
+
+.overlap-black-80{
+    background: rgba(0,0,0,.8);
+}
+
+.overlap-black-85{
+    background: rgba(0,0,0,.85);
+}
+
+.overlap-black-90{
+    background: rgba(0,0,0,.9);
+}
+
+.overlap-black-95{
+    background: rgba(0,0,0,.95);
+}
+
+
 
 
 
@@ -14209,7 +14329,7 @@
 * Preenchimento MD
 */
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 768px) {
     /*
      * Preenchimento TOTAL
      */
