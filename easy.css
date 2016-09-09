@@ -1,7 +1,7 @@
 /* 
  * CSS Easy
  * Author - Marcelo Ronkenoli
- * v 0.13
+ * v 0.14
  */
 
 
@@ -408,6 +408,14 @@
 /*
  * Largura da FONTE
  */
+.f-extra-light{
+    font-weight:200;
+}
+.f-extra-light-italic{
+    font-weight:200;
+    font-style:italic;
+}
+
 .f-light{
     font-weight:300;
 }
